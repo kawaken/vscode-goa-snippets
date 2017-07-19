@@ -1,0 +1,140 @@
+{
+    /* goa commons */
+    "goa design import": {
+        "prefix": "goa-import",
+        "body": [
+            ". \"github.com/goadesign/goa/design\"",
+            ". \"github.com/goadesign/goa/design/apidsl\""
+        ]
+    },
+    "goa design API declaration": {
+        "prefix": "goa-API",
+        "body": [
+            "var _ = API(\"${1:api name}\", func() {",
+            "\tTitle(\"${2:${1:api name}}\")",
+            "\tDescription(\"${3:Description}\")",
+            "\tScheme(\"${4:https}\")",
+            "\tHost(\"${5:localhost:8080}\")",
+            "\\})"
+        ]
+    },
+    "goa design Resource declaration": {
+        "prefix": "goa-Resource",
+        "body": [
+            "var _ = Resource(\"${1:name}\", func() {",
+            "\tBasePath(\"/${2:${1:name}}\")",
+            "\tDefaultMedia($3)",
+            "",
+            "\t// Action definitions below",
+            "\t$0",
+            "\\})"
+        ]
+    },
+    "goa design Action declaration": {
+        "prefix": "goa-Action",
+        "body": [
+            "Action(\"${1:name}\", func() {",
+            "\tDescription(\"${2:Description}\")",
+            "\tRouting($3)",
+            "\tParams(func() {",
+            "\t\t// Param definitions below",
+            "\t\t$0",
+            "\t})",
+            "\tResponse(OK)",
+            "\tResponse(NotFound)",
+            "\\})"
+        ]
+    },
+    "goa design MediaType declaration": {
+        "prefix": "goa-MediaType",
+        "body": [
+            "var ${1:YourMedia} = MediaType(\"application/vnd.${2:your.app}+json\", func() {",
+            "\tDescription(\"Description\")",
+            "\tAttributes(func() {",
+            "\t\t// Attribute definitions below",
+            "\t\tAttribute(\"id\", Integer, \"Unique $1 ID\")",
+            "\t})",
+            "\tView(\"${4:default}\", func() {",
+            "\t\t// rendered Attribute definitions below",
+            "\t\tAttribute(\"id\")",
+            "\t})",
+            "\\})"
+        ]
+    },
+    /* Routing */
+    "goa design Routing CONNECT": {
+        "prefix": "goa-Routing-CONNECT",
+        "body": "CONNECT(\"${1:routing}\")"
+    },
+    "goa design Routing DELETE": {
+        "prefix": "goa-Routing-DELETE",
+        "body": "DELETE(\"${1:routing}\")"
+    },
+    "goa design Routing GET": {
+        "prefix": "goa-Routing-GET",
+        "body": "GET(\"${1:routing}\")"
+    },
+    "goa design Routing HEAD": {
+        "prefix": "goa-Routing-HEAD",
+        "body": "HEAD(\"${1:routing}\")"
+    },
+    "goa design Routing OPTIONS": {
+        "prefix": "goa-Routing-OPTIONS",
+        "body": "OPTIONS(\"${1:routing}\")"
+    },
+    "goa design Routing PATCH": {
+        "prefix": "goa-Routing-PATCH",
+        "body": "PATCH(\"${1:routing}\")"
+    },
+    "goa design Routing POST": {
+        "prefix": "goa-Routing-POST",
+        "body": "POST(\"${1:routing}\")"
+    },
+    "goa design Routing PUT": {
+        "prefix": "goa-Routing-PUT",
+        "body": "PUT(\"${1:routing}\")"
+    },
+    "goa design Routing TRACE": {
+        "prefix": "goa-Routing-TRACE",
+        "body": "TRACE(\"${1:routing}\")"
+    },
+    /* Attribute and Param */
+    "goa design Attribute declaration": {
+        "prefix": "goa-Attribute-simple",
+        "body": "Attribute(\"${1:name}\")",
+        "description": "Defines an attribute with name only"
+    },
+    "goa design Attribute declaration with dataType": {
+        "prefix": "goa-Attribute-datatype",
+        "body": "Attribute(\"${1:name}\", ${2:dataType})",
+        "description": "Defines an attribute with dataType"
+    },
+    "goa design Attribute declaration with full arguments": {
+        "prefix": "goa-Attribute",
+        "body": [
+            "Attribute(\"${1:name}\", ${2:dataType}, \"${3:$1}\", func() {",
+            "\t$4",
+            "\\})"
+        ],
+        "description": "Defines an attribute with dataType, description and func for DSL"
+    },
+    "goa design Param declaration": {
+        "prefix": "goa-Param-simple",
+        "body": "Param(\"${1:name}\")",
+        "description": "Defines an attribute with name only"
+    },
+    "goa design Param declaration with dataType": {
+        "prefix": "goa-Param-datatype",
+        "body": "Param(\"${1:name}\", ${2:dataType})",
+        "description": "Defines an attribute with dataType"
+    },
+    "goa design Param declaration with full arguments": {
+        "prefix": "goa-Param",
+        "body": [
+            "Param(\"${1:name}\", ${2:dataType}, \"${3:$1}\", func() {",
+            "\t$4",
+            "\\})"
+        ],
+        "description": "Defines an attribute with dataType, description and func for DSL"
+    }
+}
