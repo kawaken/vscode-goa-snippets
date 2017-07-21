@@ -98,43 +98,173 @@
         "prefix": "goa-Routing-TRACE",
         "body": "TRACE(\"${1:routing}\")"
     },
-    /* Attribute and Param */
+    /* Attribute, Param, Member, Header */
     "goa design Attribute declaration": {
-        "prefix": "goa-Attribute-simple",
+        "prefix": "goa-Attribute",
         "body": "Attribute(\"${1:name}\")",
-        "description": "Defines an attribute with name only"
+        "description": "Defines an Attribute with name only"
+    },
+    "goa design Attribute declaration with dsl": {
+        "prefix": "goa-Attribute-dsl",
+        "body": [
+            "Attribute(\"${1:name}\", func() {",
+            "\t$2",
+            "\\})"
+        ],
+        "description": "Defines an Attribute with func for DSL"
     },
     "goa design Attribute declaration with dataType": {
-        "prefix": "goa-Attribute-datatype",
+        "prefix": "goa-Attribute-dataType",
         "body": "Attribute(\"${1:name}\", ${2:dataType})",
-        "description": "Defines an attribute with dataType"
+        "description": "Defines an Attribute with dataType"
     },
-    "goa design Attribute declaration with full arguments": {
-        "prefix": "goa-Attribute",
+    "goa design Attribute declaration with dataType and dsl": {
+        "prefix": "goa-Attribute-dataType-dsl",
+        "body": [
+            "Attribute(\"${1:name}\", ${2:dataType}, func() {",
+            "\t$3",
+            "\\})"
+        ],
+        "description": "Defines an Attribute with dataType and func for DSL"
+    },
+    "goa design Attribute declaration with dataType and description": {
+        "prefix": "goa-Attribute-dataType-description",
+        "body": "Attribute(\"${1:name}\", ${2:dataType}, \"${3:$1}\")",
+        "description": "Defines an Attribute with dataType, description and func for DSL"
+    },
+    "goa design Attribute declaration with dataType, description and dsl": {
+        "prefix": "goa-Attribute-dataType-description-dsl",
         "body": [
             "Attribute(\"${1:name}\", ${2:dataType}, \"${3:$1}\", func() {",
             "\t$4",
             "\\})"
         ],
-        "description": "Defines an attribute with dataType, description and func for DSL"
+        "description": "Defines an Attribute with dataType, description and func for DSL"
     },
     "goa design Param declaration": {
-        "prefix": "goa-Param-simple",
+        "prefix": "goa-Param",
         "body": "Param(\"${1:name}\")",
-        "description": "Defines an attribute with name only"
+        "description": "Defines an Param with name only"
+    },
+    "goa design Param declaration with dsl": {
+        "prefix": "goa-Param-dsl",
+        "body": [
+            "Param(\"${1:name}\", func() {",
+            "\t$2",
+            "\\})"
+        ],
+        "description": "Defines an Param with func for DSL"
     },
     "goa design Param declaration with dataType": {
-        "prefix": "goa-Param-datatype",
+        "prefix": "goa-Param-dataType",
         "body": "Param(\"${1:name}\", ${2:dataType})",
-        "description": "Defines an attribute with dataType"
+        "description": "Defines an Param with dataType"
     },
-    "goa design Param declaration with full arguments": {
-        "prefix": "goa-Param",
+    "goa design Param declaration with dataType and dsl": {
+        "prefix": "goa-Param-dataType-dsl",
+        "body": [
+            "Param(\"${1:name}\", ${2:dataType}, func() {",
+            "\t$3",
+            "\\})"
+        ],
+        "description": "Defines an Param with dataType and func for DSL"
+    },
+    "goa design Param declaration with dataType and description": {
+        "prefix": "goa-Param-dataType-description",
+        "body": "Param(\"${1:name}\", ${2:dataType}, \"${3:$1}\")",
+        "description": "Defines an Param with dataType, description and func for DSL"
+    },
+    "goa design Param declaration with dataType, description and dsl": {
+        "prefix": "goa-Param-dataType-description-dsl",
         "body": [
             "Param(\"${1:name}\", ${2:dataType}, \"${3:$1}\", func() {",
             "\t$4",
             "\\})"
         ],
-        "description": "Defines an attribute with dataType, description and func for DSL"
+        "description": "Defines an Param with dataType, description and func for DSL"
+    },
+    "goa design Member declaration": {
+        "prefix": "goa-Member",
+        "body": "Member(\"${1:name}\")",
+        "description": "Defines an Member with name only"
+    },
+    "goa design Member declaration with dsl": {
+        "prefix": "goa-Member-dsl",
+        "body": [
+            "Member(\"${1:name}\", func() {",
+            "\t$2",
+            "\\})"
+        ],
+        "description": "Defines an Member with func for DSL"
+    },
+    "goa design Member declaration with dataType": {
+        "prefix": "goa-Member-dataType",
+        "body": "Member(\"${1:name}\", ${2:dataType})",
+        "description": "Defines an Member with dataType"
+    },
+    "goa design Member declaration with dataType and dsl": {
+        "prefix": "goa-Member-dataType-dsl",
+        "body": [
+            "Member(\"${1:name}\", ${2:dataType}, func() {",
+            "\t$3",
+            "\\})"
+        ],
+        "description": "Defines an Member with dataType and func for DSL"
+    },
+    "goa design Member declaration with dataType and description": {
+        "prefix": "goa-Member-dataType-description",
+        "body": "Member(\"${1:name}\", ${2:dataType}, \"${3:$1}\")",
+        "description": "Defines an Member with dataType, description and func for DSL"
+    },
+    "goa design Member declaration with dataType, description and dsl": {
+        "prefix": "goa-Member-dataType-description-dsl",
+        "body": [
+            "Member(\"${1:name}\", ${2:dataType}, \"${3:$1}\", func() {",
+            "\t$4",
+            "\\})"
+        ],
+        "description": "Defines an Member with dataType, description and func for DSL"
+    },
+    "goa design Header declaration": {
+        "prefix": "goa-Header",
+        "body": "Header(\"${1:name}\")",
+        "description": "Defines an Header with name only"
+    },
+    "goa design Header declaration with dsl": {
+        "prefix": "goa-Header-dsl",
+        "body": [
+            "Header(\"${1:name}\", func() {",
+            "\t$2",
+            "\\})"
+        ],
+        "description": "Defines an Header with func for DSL"
+    },
+    "goa design Header declaration with dataType": {
+        "prefix": "goa-Header-dataType",
+        "body": "Header(\"${1:name}\", ${2:dataType})",
+        "description": "Defines an Header with dataType"
+    },
+    "goa design Header declaration with dataType and dsl": {
+        "prefix": "goa-Header-dataType-dsl",
+        "body": [
+            "Header(\"${1:name}\", ${2:dataType}, func() {",
+            "\t$3",
+            "\\})"
+        ],
+        "description": "Defines an Header with dataType and func for DSL"
+    },
+    "goa design Header declaration with dataType and description": {
+        "prefix": "goa-Header-dataType-description",
+        "body": "Header(\"${1:name}\", ${2:dataType}, \"${3:$1}\")",
+        "description": "Defines an Header with dataType, description and func for DSL"
+    },
+    "goa design Header declaration with dataType, description and dsl": {
+        "prefix": "goa-Header-dataType-description-dsl",
+        "body": [
+            "Header(\"${1:name}\", ${2:dataType}, \"${3:$1}\", func() {",
+            "\t$4",
+            "\\})"
+        ],
+        "description": "Defines an Header with dataType, description and func for DSL"
     }
 }
