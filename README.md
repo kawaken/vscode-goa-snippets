@@ -1,65 +1,64 @@
-# goa-snippets README
+# goa Snippets for VS Code
 
-This is the README for your extension "goa-snippets". After writing up a brief description, we recommend including the following sections.
+**This snippets are under development.**
 
-## Features
+This extension for Visual Studio Code adds snippets for goa DSL.
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+![preview](images/goa-snippets.gif)
 
-For example if there is an image subfolder under your extension project workspace:
+See the [CHANGELOG](CHANGELOG.md) for the latest changes.
 
-\!\[feature X\]\(images/feature-x.png\)
+## Supported DSL
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+* API
+* Resource
+* Action
+* MediaType
+* Routing
+* Attribute
+* Param
+* Member
+* Header
 
-## Requirements
+## Snippets
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+```go
+goa-import
+goa-API
+goa-Resource
+goa-Action
+goa-MediaType
+goa-Routing-CONNECT
+goa-Routing-DELETE
+goa-Routing-GET
+goa-Routing-HEAD
+goa-Routing-OPTIONS
+goa-Routing-PATCH
+goa-Routing-POST
+goa-Routing-PUT
+goa-Routing-TRACE
+goa-Attribute
+goa-Attribute-dsl
+goa-Attribute-dataType
+goa-Attribute-dataType-dsl
+goa-Attribute-dataType-description
+goa-Attribute-dataType-description-dsl
+goa-Param
+goa-Param-dsl
+goa-Param-dataType
+goa-Param-dataType-dsl
+goa-Param-dataType-description
+goa-Param-dataType-description-dsl
+goa-Member
+goa-Member-dsl
+goa-Member-dataType
+goa-Member-dataType-dsl
+goa-Member-dataType-description
+goa-Member-dataType-description-dsl
+goa-Header
+goa-Header-dsl
+goa-Header-dataType
+goa-Header-dataType-dsl
+goa-Header-dataType-description
+goa-Header-dataType-description-dsl
+```
