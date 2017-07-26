@@ -4,11 +4,20 @@
     "description": "goa snippets for VS Code",
     "version": "0.0.1",
     "publisher": "kawaken",
+    "license": "SEE LICENSE IN LICENSE",
+    "homepage": "https://github.com/kawaken/vscode-goa-snippets/blob/master/README.md",
+    "bugs": {
+        "url": "https://github.com/kawaken/vscode-goa-snippets/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kawaken/vscode-goa-snippets.git"
+    },
     "engines": {
         "vscode": "^1.10.0"
     },
     "categories": [
-        "Snippets"
+        "Snippets", "Other"
     ],
     "contributes": {
         "snippets": [
