@@ -1,7 +1,11 @@
 # Change Log
 All notable changes to the "goa-snippets" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
 ## [Unreleased]
-- Initial release
+- implement unsupported DSL
+
+## 0.0.1 - 2017/07/28
+
+First release.
+
+[Unreleased]: https://github.com/kawaken/vscode-goa-snippets/compare/v1.0.0...HEAD
