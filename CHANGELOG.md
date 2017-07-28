@@ -8,4 +8,4 @@ All notable changes to the "goa-snippets" extension will be documented in this f
 
 First release.
 
-[Unreleased]: https://github.com/kawaken/vscode-goa-snippets/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/kawaken/vscode-goa-snippets/compare/v0.0.1...HEAD
