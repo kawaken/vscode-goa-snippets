@@ -18,6 +18,14 @@
             "\\})"
         ]
     },
+    "goa design APIKeySecurity": {
+        "prefix": "goa-APIKeySecurity",
+        "body":[
+            "APIKeySecurity(\"${1:name}\", func() {",
+            "\t$2",
+            "})"
+        ]
+    },
     "goa design Resource declaration": {
         "prefix": "goa-Resource",
         "body": [
