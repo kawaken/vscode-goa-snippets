@@ -27,6 +27,15 @@
             "})"
         ]
     },
+    "goa design BasicAuthSecurity": {
+        "prefix": "goa-BasicAuthSecurity",
+        "body":[
+            "BasicAuthSecurity(\"${1:name}\", func() {",
+            "\tDescription(\"$2\")",
+            "\t$3",
+            "})"
+        ]
+    },
     "goa design Resource declaration": {
         "prefix": "goa-Resource",
         "body": [
