@@ -22,7 +22,8 @@
         "prefix": "goa-APIKeySecurity",
         "body":[
             "APIKeySecurity(\"${1:name}\", func() {",
-            "\t$2",
+            "\tDescription(\"$2\")",
+            "\t$3",
             "})"
         ]
     },
