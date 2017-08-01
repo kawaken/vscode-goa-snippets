@@ -2,7 +2,7 @@
     "name": "goa-snippets",
     "displayName": "goa snippets",
     "description": "goa snippets for VS Code",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "kawaken",
     "license": "SEE LICENSE IN LICENSE",
     "homepage": "https://github.com/kawaken/vscode-goa-snippets/blob/master/README.md",
@@ -17,7 +17,8 @@
         "vscode": "^1.10.0"
     },
     "categories": [
-        "Snippets", "Other"
+        "Snippets",
+        "Other"
     ],
     "contributes": {
         "snippets": [

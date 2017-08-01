@@ -11,6 +11,8 @@ See the [CHANGELOG](CHANGELOG.md) for the latest changes.
 ## Supported DSL
 
 * API
+* APIKeySecurity
+* BasicAuthSecurity
 * Resource
 * Action
 * MediaType
@@ -25,6 +27,8 @@ See the [CHANGELOG](CHANGELOG.md) for the latest changes.
 ```go
 goa-import
 goa-API
+goa-APIKeySecurity
+goa-BasicAuthSecurity
 goa-Resource
 goa-Action
 goa-MediaType

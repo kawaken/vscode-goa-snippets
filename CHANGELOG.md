@@ -4,6 +4,13 @@ All notable changes to the "goa-snippets" extension will be documented in this f
 ## [Unreleased]
 - implement unsupported DSL
 
+## 0.0.2 - 2017/08/01
+
+Added.
+
+* APIKeySecurity
+* BasicAuthSecurity
+
 ## 0.0.1 - 2017/07/28
 
 First release.
