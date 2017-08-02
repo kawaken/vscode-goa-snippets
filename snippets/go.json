@@ -20,7 +20,7 @@
     },
     "goa design APIKeySecurity": {
         "prefix": "goa-APIKeySecurity",
-        "body":[
+        "body": [
             "APIKeySecurity(\"${1:name}\", func() {",
             "\tDescription(\"$2\")",
             "\t$3",
@@ -29,7 +29,7 @@
     },
     "goa design BasicAuthSecurity": {
         "prefix": "goa-BasicAuthSecurity",
-        "body":[
+        "body": [
             "BasicAuthSecurity(\"${1:name}\", func() {",
             "\tDescription(\"$2\")",
             "\t$3",
