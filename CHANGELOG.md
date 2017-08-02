@@ -4,6 +4,13 @@ All notable changes to the "goa-snippets" extension will be documented in this f
 ## [Unreleased]
 - implement unsupported DSL
 
+## 0.0.3 - 2017/08/02
+
+Added.
+
+* Contact
+* License
+
 ## 0.0.2 - 2017/08/01
 
 Added.

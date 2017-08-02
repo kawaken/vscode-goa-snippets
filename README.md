@@ -16,6 +16,8 @@ See the [CHANGELOG](CHANGELOG.md) for the latest changes.
 * Resource
 * Action
 * MediaType
+* Contact
+* License
 * Routing
 * Attribute
 * Param
