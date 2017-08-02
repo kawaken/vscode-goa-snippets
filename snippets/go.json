@@ -79,6 +79,26 @@
             "\\})"
         ]
     },
+    /* in API */
+    "goa design Contact": {
+        "prefix": "goa-Contact",
+        "body": [
+            "Contact(func() {",
+            "\tName(\"$1\")",
+            "\tEmail(\"$2\")",
+            "\tURL(\"$3\")",
+            "})"
+        ]
+    },
+    "goa design License": {
+        "prefix": "goa-License",
+        "body": [
+            "License(func() {",
+            "\tName(\"$1\")",
+            "\tURL(\"$2\")",
+            "})"
+        ]
+    },
     /* Routing */
     "goa design Routing CONNECT": {
         "prefix": "goa-Routing-CONNECT",
