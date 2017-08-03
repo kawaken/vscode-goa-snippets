@@ -80,6 +80,22 @@
         ]
     },
     /* in API */
+    "goa design Title": {
+        "prefix": "goa-Title",
+        "body": "Title(\"$1\")"
+    },
+    "goa design Host": {
+        "prefix": "goa-Host",
+        "body": "Host(\"$1\")"
+    },
+    "goa design Version": {
+        "prefix": "goa-Version",
+        "body": "Version(\"$1\")"
+    },
+    "goa design TermsOfService": {
+        "prefix": "goa-TermsOfService",
+        "body": "TermsOfService(\"$1\")"
+    },
     "goa design Contact": {
         "prefix": "goa-Contact",
         "body": [
