@@ -12,17 +12,17 @@ See the [CHANGELOG](CHANGELOG.md) for the latest changes.
 
 * API
 * APIKeySecurity
-* BasicAuthSecurity
-* Resource
 * Action
-* MediaType
-* Contact
-* License
-* Routing
 * Attribute
-* Param
-* Member
+* BasicAuthSecurity
+* Contact
 * Header
+* License
+* MediaType
+* Member
+* Param
+* Resource
+* Routing
 
 ## Snippets
 
@@ -30,10 +30,34 @@ See the [CHANGELOG](CHANGELOG.md) for the latest changes.
 goa-import
 goa-API
 goa-APIKeySecurity
-goa-BasicAuthSecurity
-goa-Resource
 goa-Action
+goa-Attribute
+goa-Attribute-dataType
+goa-Attribute-dataType-description
+goa-Attribute-dataType-description-dsl
+goa-Attribute-dataType-dsl
+goa-Attribute-dsl
+goa-BasicAuthSecurity
+goa-Header
+goa-Header-dataType
+goa-Header-dataType-description
+goa-Header-dataType-description-dsl
+goa-Header-dataType-dsl
+goa-Header-dsl
 goa-MediaType
+goa-Member
+goa-Member-dataType
+goa-Member-dataType-description
+goa-Member-dataType-description-dsl
+goa-Member-dataType-dsl
+goa-Member-dsl
+goa-Param
+goa-Param-dataType
+goa-Param-dataType-description
+goa-Param-dataType-description-dsl
+goa-Param-dataType-dsl
+goa-Param-dsl
+goa-Resource
 goa-Routing-CONNECT
 goa-Routing-DELETE
 goa-Routing-GET
@@ -43,28 +67,4 @@ goa-Routing-PATCH
 goa-Routing-POST
 goa-Routing-PUT
 goa-Routing-TRACE
-goa-Attribute
-goa-Attribute-dsl
-goa-Attribute-dataType
-goa-Attribute-dataType-dsl
-goa-Attribute-dataType-description
-goa-Attribute-dataType-description-dsl
-goa-Param
-goa-Param-dsl
-goa-Param-dataType
-goa-Param-dataType-dsl
-goa-Param-dataType-description
-goa-Param-dataType-description-dsl
-goa-Member
-goa-Member-dsl
-goa-Member-dataType
-goa-Member-dataType-dsl
-goa-Member-dataType-description
-goa-Member-dataType-description-dsl
-goa-Header
-goa-Header-dsl
-goa-Header-dataType
-goa-Header-dataType-dsl
-goa-Header-dataType-description
-goa-Header-dataType-description-dsl
 ```
