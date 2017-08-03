@@ -17,12 +17,16 @@ See the [CHANGELOG](CHANGELOG.md) for the latest changes.
 * BasicAuthSecurity
 * Contact
 * Header
+* Host
 * License
 * MediaType
 * Member
 * Param
 * Resource
 * Routing
+* TermsOfService
+* Title
+* Version
 
 ## Snippets
 
@@ -44,6 +48,7 @@ goa-Header-dataType-description
 goa-Header-dataType-description-dsl
 goa-Header-dataType-dsl
 goa-Header-dsl
+goa-Host
 goa-MediaType
 goa-Member
 goa-Member-dataType
@@ -67,4 +72,7 @@ goa-Routing-PATCH
 goa-Routing-POST
 goa-Routing-PUT
 goa-Routing-TRACE
+goa-TermsOfService
+goa-Title
+goa-Version
 ```
