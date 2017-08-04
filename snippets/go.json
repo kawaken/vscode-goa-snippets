@@ -106,6 +106,10 @@
             "})"
         ]
     },
+    "goa design Email": {
+        "prefix": "goa-Email",
+        "body": "Email(\"$1\")"
+    },
     "goa design License": {
         "prefix": "goa-License",
         "body": [
@@ -114,6 +118,14 @@
             "\tURL(\"$2\")",
             "})"
         ]
+    },
+    "goa design Name": {
+        "prefix": "goa-Name",
+        "body": "Name(\"$1\")"
+    },
+    "goa design URL": {
+        "prefix": "goa-URL",
+        "body": "URL(\"$1\")"
     },
     /* Routing */
     "goa design Routing CONNECT": {
