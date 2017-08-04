@@ -96,6 +96,15 @@
         "prefix": "goa-TermsOfService",
         "body": "TermsOfService(\"$1\")"
     },
+    "goa design Docs": {
+        "prefix": "goa-Docs",
+        "body": [
+            "Docs(func() {",
+            "\tDescription(\"$1\")",
+            "\tURL(\"$2\")",
+            "})"
+        ]
+    },
     "goa design Contact": {
         "prefix": "goa-Contact",
         "body": [
