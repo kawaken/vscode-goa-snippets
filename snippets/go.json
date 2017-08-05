@@ -84,6 +84,10 @@
         "prefix": "goa-Title",
         "body": "Title(\"$1\")"
     },
+    "goa design Description": {
+        "prefix": "goa-Description",
+        "body": "Description(\"$1\")"
+    },
     "goa design Host": {
         "prefix": "goa-Host",
         "body": "Host(\"$1\")"
