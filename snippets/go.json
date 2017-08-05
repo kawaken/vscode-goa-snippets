@@ -92,6 +92,14 @@
         "prefix": "goa-Host",
         "body": "Host(\"$1\")"
     },
+    "goa design Scheme": {
+        "prefix": "goa-Scheme",
+        "body": "Scheme(\"$1\")"
+    },
+    "goa design BasePath": {
+        "prefix": "goa-BasePath",
+        "body": "BasePath(\"$1\")"
+    },
     "goa design Version": {
         "prefix": "goa-Version",
         "body": "Version(\"$1\")"
