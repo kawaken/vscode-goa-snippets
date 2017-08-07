@@ -148,6 +148,16 @@
         "prefix": "goa-URL",
         "body": "URL(\"$1\")"
     },
+    "goa design Origin": {
+        "prefix": "goa-Origin",
+        "body": [
+            "Origin(\"$1\", func() {",
+            "\tMethods(\"${2:List of Methods}\")",
+            "\tMaxAge($3)",
+            "\tCredentials()",
+            "}"
+        ]
+    },
     /* Routing */
     "goa design Routing CONNECT": {
         "prefix": "goa-Routing-CONNECT",
