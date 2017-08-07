@@ -1,5 +1,4 @@
 {
-    /* goa commons */
     "goa design import": {
         "prefix": "goa-import",
         "body": [
@@ -79,7 +78,6 @@
             "\\})"
         ]
     },
-    /* in API */
     "goa design Title": {
         "prefix": "goa-Title",
         "body": "Title(\"$1\")"
@@ -158,7 +156,6 @@
             "}"
         ]
     },
-    /* Routing */
     "goa design Routing CONNECT": {
         "prefix": "goa-Routing-CONNECT",
         "body": "CONNECT(\"${1:routing}\")"
@@ -195,7 +192,6 @@
         "prefix": "goa-Routing-TRACE",
         "body": "TRACE(\"${1:routing}\")"
     },
-    /* Attribute, Param, Member, Header */
     "goa design Attribute declaration": {
         "prefix": "goa-Attribute",
         "body": "Attribute(\"${1:name}\")",
