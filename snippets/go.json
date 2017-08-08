@@ -156,6 +156,19 @@
             "})"
         ]
     },
+    "goa design ResponseTemplate": {
+        "prefix": "goa-ResponseTemplate",
+        "body": [
+            "ResponseTemplate($1, func(pattern string) {",
+            "\tDescription(\"$2\")",
+            "\tStatus($3)",
+            "\tMedia($4)",
+            "\tHeaders(func() {",
+            "\t\t$5",
+            "\t})",
+            "})"
+        ]
+    },
     "goa design Routing CONNECT": {
         "prefix": "goa-Routing-CONNECT",
         "body": "CONNECT(\"${1:routing}\")"
