@@ -4,6 +4,21 @@ All notable changes to the "goa-snippets" extension will be documented in this f
 ## [Unreleased]
 - implement unsupported DSL
 
+## 0.0.5 - 2017/08/09
+
+Added.
+
+* Status
+* ResponseTemplate
+* Origin
+* Scheme
+* BasePath
+* Description
+* Docs
+* Email
+* Name
+* URL
+
 ## 0.0.4 - 2017/08/03
 
 Added.
@@ -31,4 +46,4 @@ Added.
 
 First release.
 
-[Unreleased]: https://github.com/kawaken/vscode-goa-snippets/compare/v0.0.4...HEAD
+[Unreleased]: https://github.com/kawaken/vscode-goa-snippets/compare/v0.0.5...HEAD

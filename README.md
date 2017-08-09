@@ -14,18 +14,28 @@ See the [CHANGELOG](CHANGELOG.md) for the latest changes.
 * APIKeySecurity
 * Action
 * Attribute
+* BasePath
 * BasicAuthSecurity
 * Contact
+* Description
+* Docs
+* Email
 * Header
 * Host
 * License
 * MediaType
 * Member
+* Name
+* Origin
 * Param
 * Resource
+* ResponseTemplate
 * Routing
+* Scheme, BasePath
+* Status
 * TermsOfService
 * Title
+* URL
 * Version
 
 ## Snippets
@@ -41,7 +51,11 @@ goa-Attribute-dataType-description
 goa-Attribute-dataType-description-dsl
 goa-Attribute-dataType-dsl
 goa-Attribute-dsl
+goa-BasePath
 goa-BasicAuthSecurity
+goa-Description
+goa-Docs
+goa-Email
 goa-Header
 goa-Header-dataType
 goa-Header-dataType-description
@@ -56,6 +70,8 @@ goa-Member-dataType-description
 goa-Member-dataType-description-dsl
 goa-Member-dataType-dsl
 goa-Member-dsl
+goa-Name
+goa-Origin
 goa-Param
 goa-Param-dataType
 goa-Param-dataType-description
@@ -63,6 +79,7 @@ goa-Param-dataType-description-dsl
 goa-Param-dataType-dsl
 goa-Param-dsl
 goa-Resource
+goa-ResponseTemplate
 goa-Routing-CONNECT
 goa-Routing-DELETE
 goa-Routing-GET
@@ -72,7 +89,10 @@ goa-Routing-PATCH
 goa-Routing-POST
 goa-Routing-PUT
 goa-Routing-TRACE
+goa-Scheme
+goa-Status
 goa-TermsOfService
 goa-Title
+goa-URL
 goa-Version
 ```
