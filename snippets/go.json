@@ -156,6 +156,18 @@
             "})"
         ]
     },
+    "goa design Methods": {
+        "prefix": "goa-Methods",
+        "body": "Methods(${1:List of Methods})"
+    },
+    "goa design MaxAge": {
+        "prefix": "goa-MaxAge",
+        "body": "MaxAge($1)"
+    },
+    "goa design Credentials": {
+        "prefix": "goa-Credentials",
+        "body": "Credentials()"
+    },
     "goa design ResponseTemplate": {
         "prefix": "goa-ResponseTemplate",
         "body": [
