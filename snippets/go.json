@@ -351,6 +351,14 @@
         ],
         "description": "Defines an Member with dataType, description and func for DSL"
     },
+    "goa design Headers": {
+        "prefix": "goa-Headers",
+        "body": [
+            "Headers(func() {",
+            "\t$1",
+            "})"
+        ]
+    },
     "goa design Header declaration": {
         "prefix": "goa-Header",
         "body": "Header(\"${1:name}\")",
