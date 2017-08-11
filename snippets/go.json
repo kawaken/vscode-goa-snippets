@@ -185,6 +185,10 @@
         "prefix": "goa-Status",
         "body": "Status($1)"
     },
+    "goa design Routing": {
+        "prefix": "goa-Routing",
+        "body": "Routing($1)"
+    },
     "goa design Routing CONNECT": {
         "prefix": "goa-Routing-CONNECT",
         "body": "CONNECT(\"${1:routing}\")"
