@@ -225,6 +225,14 @@
         "prefix": "goa-Routing-TRACE",
         "body": "TRACE(\"${1:routing}\")"
     },
+    "goa design Attributes": {
+        "prefix": "goa-Attributes",
+        "body": [
+            "Attributes(func() {",
+            "\t$1",
+            "})"
+        ]
+    },
     "goa design Attribute declaration": {
         "prefix": "goa-Attribute",
         "body": "Attribute(\"${1:name}\")",
@@ -266,6 +274,14 @@
             "\\})"
         ],
         "description": "Defines an Attribute with dataType, description and func for DSL"
+    },
+    "goa design Params": {
+        "prefix": "goa-Params",
+        "body": [
+            "Params(func() {",
+            "\t$1",
+            "})"
+        ]
     },
     "goa design Param declaration": {
         "prefix": "goa-Param",
