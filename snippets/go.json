@@ -164,6 +164,14 @@
         "prefix": "goa-MaxAge",
         "body": "MaxAge($1)"
     },
+    "goa design MaxLength": {
+        "prefix": "goa-MaxLength",
+        "body": "MaxLength($1)"
+    },
+    "goa design MinLength": {
+        "prefix": "goa-MinLength",
+        "body": "MinLength($1)"
+    },
     "goa design Credentials": {
         "prefix": "goa-Credentials",
         "body": "Credentials()"
