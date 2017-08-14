@@ -176,6 +176,14 @@
         "prefix": "goa-Credentials",
         "body": "Credentials()"
     },
+    "goa design Example": {
+        "prefix": "goa-Example",
+        "body": "Example($1)"
+    },
+    "goa design NoExample": {
+        "prefix": "goa-NoExample",
+        "body": "NoExample()"
+    },
     "goa design ResponseTemplate": {
         "prefix": "goa-ResponseTemplate",
         "body": [
