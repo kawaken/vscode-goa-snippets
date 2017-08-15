@@ -35,6 +35,10 @@
             "})"
         ]
     },
+    "goa design NoSecurity": {
+        "prefix": "goa-NoSecurity",
+        "body": "NoSecurity()"
+    },
     "goa design Resource declaration": {
         "prefix": "goa-Resource",
         "body": [
