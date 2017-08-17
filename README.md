@@ -14,22 +14,33 @@ See the [CHANGELOG](CHANGELOG.md) for the latest changes.
 * APIKeySecurity
 * Action
 * Attribute
+* Attributes
 * BasePath
 * BasicAuthSecurity
 * Contact
+* Credentials
 * Description
 * Docs
 * Email
+* Example
 * Header
+* Headers
 * Host
 * License
+* MaxAge
+* MaxLength
 * MediaType
 * Member
+* Methods
+* MinLength
 * Name
+* NoExample
 * Origin
 * Param
+* Params
 * Resource
 * ResponseTemplate
+* Routing
 * Routing
 * Scheme, BasePath
 * Status
@@ -51,18 +62,24 @@ goa-Attribute-dataType-description
 goa-Attribute-dataType-description-dsl
 goa-Attribute-dataType-dsl
 goa-Attribute-dsl
+goa-Attributes
 goa-BasePath
 goa-BasicAuthSecurity
+goa-Credentials
 goa-Description
 goa-Docs
 goa-Email
+goa-Example
 goa-Header
 goa-Header-dataType
 goa-Header-dataType-description
 goa-Header-dataType-description-dsl
 goa-Header-dataType-dsl
 goa-Header-dsl
+goa-Headers
 goa-Host
+goa-MaxAge
+goa-MaxLength
 goa-MediaType
 goa-Member
 goa-Member-dataType
@@ -70,7 +87,10 @@ goa-Member-dataType-description
 goa-Member-dataType-description-dsl
 goa-Member-dataType-dsl
 goa-Member-dsl
+goa-Methods
+goa-MinLength
 goa-Name
+goa-NoExample
 goa-Origin
 goa-Param
 goa-Param-dataType
@@ -78,8 +98,10 @@ goa-Param-dataType-description
 goa-Param-dataType-description-dsl
 goa-Param-dataType-dsl
 goa-Param-dsl
+goa-Params
 goa-Resource
 goa-ResponseTemplate
+goa-Routing
 goa-Routing-CONNECT
 goa-Routing-DELETE
 goa-Routing-GET

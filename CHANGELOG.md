@@ -4,6 +4,22 @@ All notable changes to the "goa-snippets" extension will be documented in this f
 ## [Unreleased]
 - implement unsupported DSL
 
+## 0.0.6 - 2017/08/17
+
+Added.
+
+* Example
+* NoExample
+* MaxLength
+* MinLength
+* Attributes
+* Params
+* Headers
+* Routing
+* Methods
+* MaxAge
+* Credentials
+
 ## 0.0.5 - 2017/08/09
 
 Added.
@@ -46,4 +62,4 @@ Added.
 
 First release.
 
-[Unreleased]: https://github.com/kawaken/vscode-goa-snippets/compare/v0.0.5...HEAD
+[Unreleased]: https://github.com/kawaken/vscode-goa-snippets/compare/v0.0.6...HEAD
