@@ -160,6 +160,10 @@
             "})"
         ]
     },
+    "goa design Expose": {
+        "prefix": "goa-Expose",
+        "body": "Expose(${1:List of Expose Headers})"
+    },
     "goa design Methods": {
         "prefix": "goa-Methods",
         "body": "Methods(${1:List of Methods})"
