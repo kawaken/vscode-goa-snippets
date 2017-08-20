@@ -440,5 +440,9 @@
             "\\})"
         ],
         "description": "Defines an Header with dataType, description and func for DSL"
+    },
+    "goa design Package": {
+        "prefix": "goa-Package",
+        "body": "Package(\"${1:package path}\")"
     }
 }
