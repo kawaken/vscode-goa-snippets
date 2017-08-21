@@ -441,6 +441,10 @@
         ],
         "description": "Defines an Header with dataType, description and func for DSL"
     },
+    "goa design ContentType": {
+        "prefix": "goa-ContentType",
+        "body": "ContentType(\"${1:application/json}\")"
+    },
     "goa design Package": {
         "prefix": "goa-Package",
         "body": "Package(\"${1:package path}\")"
