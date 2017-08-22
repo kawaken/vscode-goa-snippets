@@ -41,8 +41,7 @@ See the [CHANGELOG](CHANGELOG.md) for the latest changes.
 * Resource
 * ResponseTemplate
 * Routing
-* Routing
-* Scheme, BasePath
+* Scheme
 * Status
 * TermsOfService
 * Title
