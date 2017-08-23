@@ -10,14 +10,14 @@
 - [x] Attributes
 - [x] BasePath
 - [x] BasicAuthSecurity
-- [ ] CONNECT
+- [x] CONNECT
 - [ ] CanonicalActionName
 - [ ] CollectionOf
 - [ ] Consumes
 - [x] Contact
 - [ ] ContentType
 - [x] Credentials
-- [ ] DELETE
+- [x] DELETE
 - [ ] Default
 - [ ] DefaultMedia
 - [x] Description
@@ -29,8 +29,8 @@
 - [ ] Files
 - [ ] Format
 - [ ] Function
-- [ ] GET
-- [ ] HEAD
+- [x] GET
+- [x] HEAD
 - [ ] HashOf
 - [x] Header
 - [x] Headers
@@ -54,12 +54,12 @@
 - [x] NoExample
 - [ ] NoSecurity
 - [ ] OAuth2Security
-- [ ] OPTIONS
+- [x] OPTIONS
 - [ ] OptionalPayload
 - [x] Origin
-- [ ] PATCH
-- [ ] POST
-- [ ] PUT
+- [x] PATCH
+- [x] POST
+- [x] PUT
 - [ ] Package
 - [x] Param
 - [x] Params
@@ -79,7 +79,7 @@
 - [ ] Scope
 - [ ] Security
 - [x] Status
-- [ ] TRACE
+- [x] TRACE
 - [x] TermsOfService
 - [x] Title
 - [ ] TokenURL
