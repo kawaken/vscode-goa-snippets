@@ -448,5 +448,13 @@
     "goa design Package": {
         "prefix": "goa-Package",
         "body": "Package(\"${1:package path}\")"
+    },
+    "goa design Media": {
+        "prefix": "goa-Media",
+        "body": "Media(\"${1:application/json}\")"
+    },
+    "goa design Media with MediaType": {
+        "prefix": "goa-Media-MediaType",
+        "body": "Media(${1:MediaType}, \"${2:viewName}\")"
     }
 }
