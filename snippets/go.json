@@ -456,5 +456,9 @@
     "goa design Media with MediaType": {
         "prefix": "goa-Media-MediaType",
         "body": "Media(${1:MediaType}, \"${2:viewName}\")"
+    },
+    "goa design Scope": {
+        "prefix": "goa-Scope",
+        "body": "Scope(\"${1:name}\", \"${2:desc...}\")"
     }
 }
