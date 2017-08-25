@@ -460,5 +460,9 @@
     "goa design Scope": {
         "prefix": "goa-Scope",
         "body": "Scope(\"${1:name}\", \"${2:desc...}\")"
+    },
+    "goa design Query": {
+        "prefix": "goa-Query",
+        "body": "Query(\"${1:parameterName}\")"
     }
 }
