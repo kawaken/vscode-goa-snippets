@@ -480,5 +480,9 @@
     "goa design Function": {
         "prefix": "goa-Function",
         "body": "Function(\"$1\")"
+    },
+    "goa design ImplicitFlow": {
+        "prefix": "goa-ImplicitFlow",
+        "body": "ImplicitFlow(\"${1:authorizationURL}\")"
     }
 }
