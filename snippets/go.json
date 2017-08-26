@@ -472,5 +472,9 @@
     "goa design ApplicationFlow": {
         "prefix": "goa-ApplicationFlow",
         "body": "ApplicationFlow(\"${1:tokenURL}\")"
+    },
+    "goa design CanonicalActionName": {
+        "prefix": "goa-CanonicalActionName",
+        "body": "CanonicalActionName(\"$1\")"
     }
 }
