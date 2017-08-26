@@ -464,5 +464,9 @@
     "goa design Query": {
         "prefix": "goa-Query",
         "body": "Query(\"${1:parameterName}\")"
+    },
+    "goa design AccessCodeFlow": {
+        "prefix": "goa-AccessCodeFlow",
+        "body": "AccessCodeFlow(\"${1:authorizationURL}\", \"${2:tokenURL}\")"
     }
 }
