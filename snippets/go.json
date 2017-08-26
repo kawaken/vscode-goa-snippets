@@ -476,5 +476,9 @@
     "goa design CanonicalActionName": {
         "prefix": "goa-CanonicalActionName",
         "body": "CanonicalActionName(\"$1\")"
+    },
+    "goa design Function": {
+        "prefix": "goa-Function",
+        "body": "Function(\"$1\")"
     }
 }
