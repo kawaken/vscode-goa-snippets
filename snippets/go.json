@@ -484,5 +484,13 @@
     "goa design ImplicitFlow": {
         "prefix": "goa-ImplicitFlow",
         "body": "ImplicitFlow(\"${1:authorizationURL}\")"
+    },
+    "goa design Link": {
+        "prefix": "goa-Link",
+        "body": "Link(\"${1:name}\", \"${2:view...}\")"
+    },
+    "goa design Metadata": {
+        "prefix": "goa-Metadata",
+        "body": "Metadata(\"${1:name}\", \"${2:value...}\")"
     }
 }
