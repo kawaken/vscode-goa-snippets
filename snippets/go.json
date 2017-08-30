@@ -496,6 +496,9 @@
     "goa design Parent": {
         "prefix": "goa-Parent",
         "body": "Parent(\"$1\")"
+    },
+    "goa design Pattern": {
+        "prefix": "goa-Pattern",
+        "body": "Pattern(\"$1\")"
     }
-
 }
