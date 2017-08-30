@@ -504,5 +504,9 @@
     "goa design Required": {
         "prefix": "goa-Required",
         "body": "Required(\"${1:names...}\")"
+    },
+    "goa design TokenURL": {
+        "prefix": "goa-TokenURL",
+        "body": "TokenURL(\"${1:tokenURL}\")"
     }
 }
