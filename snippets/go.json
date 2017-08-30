@@ -492,5 +492,10 @@
     "goa design Metadata": {
         "prefix": "goa-Metadata",
         "body": "Metadata(\"${1:name}\", \"${2:value...}\")"
+    },
+    "goa design Parent": {
+        "prefix": "goa-Parent",
+        "body": "Parent(\"$1\")"
     }
+
 }
