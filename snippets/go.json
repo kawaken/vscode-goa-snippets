@@ -500,5 +500,9 @@
     "goa design Pattern": {
         "prefix": "goa-Pattern",
         "body": "Pattern(\"$1\")"
+    },
+    "goa design Required": {
+        "prefix": "goa-Required",
+        "body": "Required(\"${1:names...}\")"
     }
 }
