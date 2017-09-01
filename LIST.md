@@ -4,18 +4,18 @@
 - [x] APIKeySecurity
 - [ ] AccessCodeFlow
 - [x] Action
-- [ ] ApplicationFlow
+- [x] ApplicationFlow
 - [ ] ArrayOf
 - [x] Attribute
 - [x] Attributes
 - [x] BasePath
 - [x] BasicAuthSecurity
 - [x] CONNECT
-- [ ] CanonicalActionName
+- [x] CanonicalActionName
 - [ ] CollectionOf
 - [ ] Consumes
 - [x] Contact
-- [ ] ContentType
+- [x] ContentType
 - [x] Credentials
 - [x] DELETE
 - [ ] Default
@@ -25,34 +25,34 @@
 - [x] Email
 - [ ] Enum
 - [x] Example
-- [ ] Expose
+- [x] Expose
 - [ ] Files
 - [ ] Format
-- [ ] Function
+- [x] Function
 - [x] GET
 - [x] HEAD
 - [ ] HashOf
 - [x] Header
 - [x] Headers
 - [x] Host
-- [ ] ImplicitFlow
+- [x] ImplicitFlow
 - [ ] JWTSecurity
 - [x] License
-- [ ] Link
+- [x] Link
 - [ ] Links
 - [x] MaxAge
 - [x] MaxLength
 - [ ] Maximum
-- [ ] Media
+- [x] Media
 - [x] MediaType
 - [x] Member
-- [ ] Metadata
+- [x] Metadata
 - [x] Methods
 - [x] MinLength
 - [ ] Minimum
 - [x] Name
 - [x] NoExample
-- [ ] NoSecurity
+- [x] NoSecurity
 - [ ] OAuth2Security
 - [x] OPTIONS
 - [ ] OptionalPayload
@@ -63,30 +63,30 @@
 - [ ] Package
 - [x] Param
 - [x] Params
-- [ ] Parent
+- [x] Parent
 - [ ] PasswordFlow
-- [ ] Pattern
+- [x] Pattern
 - [ ] Payload
 - [ ] Produces
-- [ ] Query
+- [x] Query
 - [ ] Reference
-- [ ] Required
+- [x] Required
 - [x] Resource
 - [ ] Response
 - [x] ResponseTemplate
 - [x] Routing
 - [x] Scheme
-- [ ] Scope
+- [x] Scope
 - [ ] Security
 - [x] Status
 - [x] TRACE
 - [x] TermsOfService
 - [x] Title
-- [ ] TokenURL
+- [x] TokenURL
 - [ ] Trait
 - [ ] Type
-- [ ] TypeName
+- [x] TypeName
 - [x] URL
-- [ ] UseTrait
+- [x] UseTrait
 - [x] Version
 - [ ] View

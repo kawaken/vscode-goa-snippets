@@ -4,6 +4,28 @@ All notable changes to the "goa-snippets" extension will be documented in this f
 ## [Unreleased]
 - implement unsupported DSL
 
+## 0.0.7 - 2017/09/01
+
+Added.
+
+* AccessCodeFlow
+* ApplicationFlow
+* CanonicalActionName
+* ContentType
+* Expose
+* Function
+* ImplicitFlow
+* Link
+* Media
+* Metadata
+* Package
+* Parent
+* Pattern
+* Query
+* Required
+* Scope
+* TokenURL
+
 ## 0.0.6 - 2017/08/17
 
 Added.
@@ -62,4 +84,4 @@ Added.
 
 First release.
 
-[Unreleased]: https://github.com/kawaken/vscode-goa-snippets/compare/v0.0.6...HEAD
+[Unreleased]: https://github.com/kawaken/vscode-goa-snippets/compare/v0.0.7...HEAD
