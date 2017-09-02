@@ -516,5 +516,9 @@
     "goa design UseTrait": {
         "prefix": "goa-UseTrait",
         "body": "UseTrait(\"${1:names...}\")"
+    },
+    "goa design PasswordFlow": {
+        "prefix": "goa-PasswordFlow",
+        "body": "PasswordFlow(\"${1:tokenURL}\")"
     }
 }
