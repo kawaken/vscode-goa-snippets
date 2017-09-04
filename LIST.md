@@ -2,7 +2,7 @@
 
 - [x] API
 - [x] APIKeySecurity
-- [ ] AccessCodeFlow
+- [x] AccessCodeFlow
 - [x] Action
 - [x] ApplicationFlow
 - [ ] ArrayOf
