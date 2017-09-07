@@ -524,7 +524,7 @@
     "goa design View": {
         "prefix": "goa-View",
         "body": [
-            "View(\"${1:name}\", func(){",
+            "View(\"${1:default}\", func(){",
             "\t$2",
             "})"
         ]
