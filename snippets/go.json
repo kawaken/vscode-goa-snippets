@@ -528,5 +528,14 @@
             "\t$2",
             "})"
         ]
+    },
+    "goa design View with description": {
+        "prefix": "goa-View-description",
+        "body": [
+            "View(\"${1:default}\", func(){",
+            "\tDescription(\"$2\")",
+            "\t$3",
+            "})"
+        ]
     }
 }
