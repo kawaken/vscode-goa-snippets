@@ -520,5 +520,13 @@
     "goa design PasswordFlow": {
         "prefix": "goa-PasswordFlow",
         "body": "PasswordFlow(\"${1:tokenURL}\")"
+    },
+    "goa design View": {
+        "prefix": "goa-View",
+        "body": [
+            "View(\"${1:name}\", func(){",
+            "\t$2",
+            "})"
+        ]
     }
 }
