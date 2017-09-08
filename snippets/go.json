@@ -537,5 +537,9 @@
             "\t$3",
             "})"
         ]
+    },
+    "goa design Reference": {
+        "prefix": "goa-Reference",
+        "body": "Reference($1)"
     }
 }
