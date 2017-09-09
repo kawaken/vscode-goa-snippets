@@ -541,5 +541,13 @@
     "goa design Reference": {
         "prefix": "goa-Reference",
         "body": "Reference($1)"
+    },
+    "goa design Type": {
+        "prefix": "goa-Type",
+        "body": [
+            "var ${1:YourType} = Type(\"${2:name}\", func(){",
+            "\t$3",
+            "})"
+        ]
     }
 }
