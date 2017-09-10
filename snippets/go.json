@@ -549,5 +549,17 @@
             "\t$3",
             "})"
         ]
+    },
+    "goa design ArrayOf": {
+        "prefix": "goa-ArrayOf",
+        "body": "ArrayOf(${1:Type})"
+    },
+    "goa design ArrayOf with option": {
+        "prefix": "goa-ArrayOf-option",
+        "body": [
+            "ArrayOf(${1:Type}, func(){",
+            "\t$2",
+            "})"
+        ]
     }
 }
