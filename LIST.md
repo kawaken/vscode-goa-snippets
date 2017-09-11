@@ -5,7 +5,7 @@
 - [x] AccessCodeFlow
 - [x] Action
 - [x] ApplicationFlow
-- [ ] ArrayOf
+- [x] ArrayOf
 - [x] Attribute
 - [x] Attributes
 - [x] BasePath
@@ -60,16 +60,16 @@
 - [x] PATCH
 - [x] POST
 - [x] PUT
-- [ ] Package
+- [x] Package
 - [x] Param
 - [x] Params
 - [x] Parent
-- [ ] PasswordFlow
+- [x] PasswordFlow
 - [x] Pattern
 - [ ] Payload
 - [ ] Produces
 - [x] Query
-- [ ] Reference
+- [x] Reference
 - [x] Required
 - [x] Resource
 - [ ] Response
@@ -84,9 +84,9 @@
 - [x] Title
 - [x] TokenURL
 - [ ] Trait
-- [ ] Type
+- [x] Type
 - [x] TypeName
 - [x] URL
 - [x] UseTrait
 - [x] Version
-- [ ] View
+- [x] View
