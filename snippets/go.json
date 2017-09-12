@@ -561,5 +561,17 @@
             "\t$2",
             "})"
         ]
+    },
+    "goa design CollectionOf": {
+        "prefix": "goa-CollectionOf",
+        "body": "CollectionOf(${1:MediaType})"
+    },
+    "goa design CollectionOf with option": {
+        "prefix": "goa-CollectionOf-option",
+        "body": [
+            "CollectionOf(${1:MediaType}, func(){",
+            "\t$2",
+            "})"
+        ]
     }
 }
