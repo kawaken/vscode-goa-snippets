@@ -577,5 +577,13 @@
     "goa design Default": {
         "prefix": "goa-Default",
         "body": "Default($1)"
+    },
+    "goa design DefaultMedia": {
+        "prefix": "goa-DefaultMedia",
+        "body": "DefaultMedia(${1:MediaType})"
+    },
+    "goa design DefaultMedia with viewName": {
+        "prefix": "goa-DefaultMedia-viewName",
+        "body": "DefaultMedia(${1:MediaType}, \"${2:viewName...}\")"
     }
 }
