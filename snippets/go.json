@@ -573,5 +573,9 @@
             "\t$2",
             "})"
         ]
+    },
+    "goa design Default": {
+        "prefix": "goa-Default",
+        "body": "Default($1)"
     }
 }
