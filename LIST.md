@@ -12,14 +12,14 @@
 - [x] BasicAuthSecurity
 - [x] CONNECT
 - [x] CanonicalActionName
-- [ ] CollectionOf
+- [x] CollectionOf
 - [ ] Consumes
 - [x] Contact
 - [x] ContentType
 - [x] Credentials
 - [x] DELETE
-- [ ] Default
-- [ ] DefaultMedia
+- [x] Default
+- [x] DefaultMedia
 - [x] Description
 - [x] Docs
 - [x] Email
