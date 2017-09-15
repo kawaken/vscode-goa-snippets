@@ -585,5 +585,9 @@
     "goa design DefaultMedia with viewName": {
         "prefix": "goa-DefaultMedia-viewName",
         "body": "DefaultMedia(${1:MediaType}, \"${2:viewName...}\")"
+    },
+    "goa design Enum": {
+        "prefix": "goa-Enum",
+        "body": "Enum($1)"
     }
 }
