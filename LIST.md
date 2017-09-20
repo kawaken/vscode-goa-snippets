@@ -23,10 +23,10 @@
 - [x] Description
 - [x] Docs
 - [x] Email
-- [ ] Enum
+- [x] Enum
 - [x] Example
 - [x] Expose
-- [ ] Files
+- [x] Files
 - [ ] Format
 - [x] Function
 - [x] GET
