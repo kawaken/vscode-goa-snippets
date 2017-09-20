@@ -589,5 +589,17 @@
     "goa design Enum": {
         "prefix": "goa-Enum",
         "body": "Enum($1)"
+    },
+    "goa design Files": {
+        "prefix": "goa-Files",
+        "body": "Files(\"${1:path}\", \"${2:filename}\")"
+    },
+    "goa design Files with func": {
+        "prefix": "goa-Files-func",
+        "body": [
+            "Files(\"${1:path}\", \"${2:filename}\", func(){",
+            "\t$3",
+            "})"
+        ]
     }
 }
