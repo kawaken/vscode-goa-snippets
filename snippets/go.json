@@ -601,5 +601,53 @@
             "\t$3",
             "})"
         ]
+    },
+    "goa design Format": {
+        "prefix": "goa-Format",
+        "body": "Format(\"$1\")"
+    },
+    "goa design Format as date-time": {
+        "prefix": "goa-Format-date-time",
+        "body": "Format(\"date-time\")"
+    },
+    "goa design Format as email": {
+        "prefix": "goa-Format-email",
+        "body": "Format(\"email\")"
+    },
+    "goa design Format as hostname": {
+        "prefix": "goa-Format-hostname",
+        "body": "Format(\"hostname\")"
+    },
+    "goa design Format as ipv4": {
+        "prefix": "goa-Format-ipv4",
+        "body": "Format(\"ipv4\")"
+    },
+    "goa design Format as ipv6": {
+        "prefix": "goa-Format-ipv6",
+        "body": "Format(\"ipv6\")"
+    },
+    "goa design Format as ip": {
+        "prefix": "goa-Format-ip",
+        "body": "Format(\"ip\")"
+    },
+    "goa design Format as uri": {
+        "prefix": "goa-Format-uri",
+        "body": "Format(\"uri\")"
+    },
+    "goa design Format as mac": {
+        "prefix": "goa-Format-mac",
+        "body": "Format(\"mac\")"
+    },
+    "goa design Format as cidr": {
+        "prefix": "goa-Format-cidr",
+        "body": "Format(\"cidr\")"
+    },
+    "goa design Format as regexp": {
+        "prefix": "goa-Format-regexp",
+        "body": "Format(\"regexp\")"
+    },
+    "goa design Format as rfc1123": {
+        "prefix": "goa-Format-rfc1123",
+        "body": "Format(\"rfc1123\")"
     }
 }

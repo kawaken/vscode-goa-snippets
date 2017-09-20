@@ -27,7 +27,7 @@
 - [x] Example
 - [x] Expose
 - [x] Files
-- [ ] Format
+- [x] Format
 - [x] Function
 - [x] GET
 - [x] HEAD
